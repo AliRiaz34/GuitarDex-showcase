@@ -69,7 +69,7 @@ Visit [guitardex.vercel.app](https://guitardex.vercel.app/) on your phone, tap s
   <img src="Tuner.png" alt="Tuner view" width="280" />
 </p>
 
-- Dedicated tuner page and an inline tuner inside the practice widget
+- Dedicated tuner page and an inline tuner inside the practice widget that auto uses the current songs tuning
 - Real-time pitch detection via Web Audio API + YIN algorithm
 - Median-filtered frequency and cents smoothing, RMS amplitude gating, and raw-note switching for snappy, stable readouts
 
