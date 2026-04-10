@@ -76,6 +76,8 @@ Visit [guitardex.vercel.app](https://guitardex.vercel.app/) on your phone, tap s
 
 <p align="center">
   <img src="youtubeplaybackPicture.png" alt="YouTube playback" width="280" />
+  &nbsp;&nbsp;
+  <img src="lyricPicture.png" alt="Lyrics view" width="280" />
 </p>
 
 - YouTube player integrated into song and practice views with playback controls
