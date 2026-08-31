@@ -2,7 +2,7 @@
 
 Most guitar apps help you learn songs, but struggle to help you maintain them. Instead of forgetting songs over time, GuitarDex is a solo project of mine that tracks your practices, reminds you what needs attention and makes maintaining your personal catalog enjoyable. 
 
-It combines a Pokémon inspired leveling system with practical tools like imported tabs and chords, a tuner, metronome, chord finder with a scale mode, and a chord editor for custom chord sheets.
+It combines a Pokémon inspired leveling system with practical tools like a tab player, a tuner, metronome, chord finder with a scale mode, and a chord editor for custom chord sheets.
 
 Frequently being updated and used daily.
 
