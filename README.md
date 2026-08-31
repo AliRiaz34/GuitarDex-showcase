@@ -78,7 +78,7 @@ Visit [guitardex.net](https://guitardex.net/) on your phone, tap share, then "Ad
 
 - Build a **chord sheet** for any song in a dedicated editor, lyrics with chords floated above the exact word they land on
 - An embedded chord picker lets you place chords straight from the interactive fretboard, no typing
-- Import your own tabs or use ones other users have uploaded
+- Import your own tabs and use our tab player
 - Tabs sync to YouTube audio so you can follow along note-for-note
 - Change playback speed, use a synced metronome, or loop a few tricky bars. 
 
@@ -135,7 +135,7 @@ Visit [guitardex.net](https://guitardex.net/) on your phone, tap share, then "Ad
 - YouTube player integrated into song and practice views with playback controls
 - Automatic lyrics fetch via lrclib.net
 - **Full-page karaoke player** with synced lyric scrolling alongside playback
-- **Per-word karaoke** for songs with Guitar Pro timing each word highlights as it's sung, and you can tap any word to seek there
+- **Per-word karaoke** for songs with tabs timing each word highlights as it's sung, and you can tap any word to seek there
 
 ### Cross-Device Sync & PWA Support
 
