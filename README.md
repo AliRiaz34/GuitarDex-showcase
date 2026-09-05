@@ -6,6 +6,8 @@ It combines a Pokémon inspired leveling system with practical tools like a tab 
 
 Frequently being updated and used daily.
 
+Here to report a bug? Create a github issue and I'll check it out.
+
 ## Try it
 
 Visit [guitardex.net](https://guitardex.net/) on your phone, tap share, then "Add to Home Screen" to install it as a standalone app.
