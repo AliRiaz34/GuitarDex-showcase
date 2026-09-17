@@ -10,7 +10,9 @@ Here to report a bug? Create a github issue and I'll check it out.
 
 ## Try it
 
-Visit [guitardex.net](https://guitardex.net/) on your phone, tap share, then "Add to Home Screen" to install it as a standalone app.
+**iOS:** Get the native app on the [App Store](https://apps.apple.com/no/app/guitardex/id6807096868).
+
+**Web / Android:** Visit [guitardex.net](https://guitardex.net/) on your phone, tap share, then "Add to Home Screen" to install it as a standalone app.
 
 *(Best experienced on mobile or using Chrome DevTools mobile view)*
 
@@ -139,9 +141,10 @@ Visit [guitardex.net](https://guitardex.net/) on your phone, tap share, then "Ad
 - **Full-page karaoke player** with synced lyric scrolling alongside playback
 - **Per-word karaoke** for songs with tabs timing each word highlights as it's sung, and you can tap any word to seek there
 
-### Cross-Device Sync & PWA Support
+### Cross-Device Sync, PWA & Native Mobile
 
-- Installable on mobile devices as a standalone app
+- Native iOS app available on the [App Store](https://apps.apple.com/no/app/guitardex/id6807096868)
+- Also installable as a PWA on any mobile device (web/Android) as a standalone app
 - All progress, songs, decks, and social data synced across devices in real-time via Supabase
 - Seamlessly switch between phone, tablet, and desktop without losing any data
 
