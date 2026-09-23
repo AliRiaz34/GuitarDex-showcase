@@ -10,11 +10,11 @@ Here to report a bug? Create a github issue and I'll check it out.
 
 ## Try it
 
-**iOS:** Get the native app on the [App Store](https://apps.apple.com/no/app/guitardex/id6807096868).
+**iPhone:** Get the native app on the [App Store](https://apps.apple.com/no/app/guitardex/id6807096868).
 
-**Web / Android:** Visit [guitardex.net](https://guitardex.net/) on your phone, tap share, then "Add to Home Screen" to install it as a standalone app.
+**Desktop / tablet:** Use the web app at [guitardex.net](https://guitardex.net/). It can also be installed as a PWA from the browser.
 
-*(Best experienced on mobile or using Chrome DevTools mobile view)*
+*Phone browsers are no longer supported. On iPhone use the App Store app; an Android release is not available yet.*
 
 <p align="center">
   <img src="pictures/loginPicture.png" alt="Login screen" width="280" />
@@ -141,16 +141,17 @@ Here to report a bug? Create a github issue and I'll check it out.
 - **Full-page karaoke player** with synced lyric scrolling alongside playback
 - **Per-word karaoke** for songs with tabs timing each word highlights as it's sung, and you can tap any word to seek there
 
-### Cross-Device Sync, PWA & Native Mobile
+### Cross-Device Sync, Native iOS & Web
 
 - Native iOS app available on the [App Store](https://apps.apple.com/no/app/guitardex/id6807096868)
-- Also installable as a PWA on any mobile device (web/Android) as a standalone app
+- Web app for desktop and tablet at [guitardex.net](https://guitardex.net/), installable as a PWA
 - All progress, songs, decks, and social data synced across devices in real-time via Supabase
-- Seamlessly switch between phone, tablet, and desktop without losing any data
+- Log in with the same account on the iPhone app and the web app and pick up where you left off
 
 ## Tech Stack
 
 - **React 19** + Vite + `vite-plugin-pwa`
+- **Capacitor** — native iOS app
 - **React Router v7**
 - **Framer Motion** — transitions and animations
 - **dnd-kit** — drag-and-drop song reordering
