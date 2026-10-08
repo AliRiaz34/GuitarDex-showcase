@@ -31,8 +31,13 @@ Here to report a bug? Create a github issue and I'll check it out.
 </p>
 
 - Earn XP by logging practice sessions
-- XP scales with song difficulty, practice duration, your highest level reached, and streak bonuses
-- Songs progress through statuses: **Seen → Learning → Refined → Mastered**
+- XP scales with song difficulty, practice duration, your highest level reached, a daily streak bonus (up to +30%), and how many times you've practiced the song (up to +25%)
+- Songs progress through statuses: **Seen → Learning → Refined → Fluent → Mastered**
+  - **Learning** (lv 1–4) — you still need the tabs
+  - **Refined** (lv 5–9) — you can play most of it without tabs
+  - **Fluent** (lv 10–19) — you play it from memory but could still forget it
+  - **Mastered** (lv 20+) — you know it by heart
+- **"I know this" bump** — already know a song? Promote it one tier at a time without grinding XP
 - Optional **XP boost** multiplier (up to 3×) to tune how fast you level up
 - Pin frequently-played songs to the top of the library, with status filters and search
 - Custom filter chips (by artist, difficulty, or tuning) and sort by recent, level, or age
@@ -40,10 +45,13 @@ Here to report a bug? Create a github issue and I'll check it out.
 
 ### Decay Mechanic
 
-- Songs decay if not practiced within grace periods
+- Songs decay if they're not practiced within a grace period, and higher tiers get longer ones: 10 days for Learning, 14 for Refined, 21 for Fluent, and 90 for Mastered (120 for easy songs)
 - Harder songs decay faster, but decay resistance scales with total practice sessions. The more you've played it, the slower it fades
-- Songs that reach **Refined** have a minimum floor at level 5
-- Songs that reach **Mastered** never decay below Refined
+- Songs added at an advanced status count as already well practiced, so they don't fade like brand-new songs
+- Songs that reach **Mastered** never decay below Fluent, and songs that reach **Fluent** never decay below Refined
+- Songs that only reached Refined can slip back down and show as **Stale** until you practice them again
+- A song shows a warning 5 days before it would drop a tier
+- **Decay Board** — daily rescue missions on the Quests page point you to the songs closest to decaying. Practice one to save it
 - Decay rate is adjustable (0.5×–2×) so retention can be as forgiving or as demanding as you like
 - Decay can be toggled off entirely from settings
 
@@ -54,8 +62,7 @@ Here to report a bug? Create a github issue and I'll check it out.
 </p>
 
 - A stats dashboard that visualizes your practice history with charts
-- **Progress** view — track XP, levels, and practice time as they build up
-- **Decay** view — see which songs are fading and which are holding steady
+- Track lifetime stats, levels, and practice time as they build up
 
 ### Chord Finder
 
@@ -101,7 +108,7 @@ Here to report a bug? Create a github issue and I'll check it out.
 - **Profiles** — public library, recent activity, streak, total hours played
 - **Friends** — follow/follower lists with follow-back, unfollow, and follow-request flows
 - **Privacy controls** — hide your activity from others' feeds, hide your practice log, mark new songs private by default, and export/import or delete your data from settings
-- **Quests** "learn this song to **Refined** or **Mastered**"
+- **Quests** "learn this song to **Refined**, **Fluent**, or **Mastered**"
 - **Jam Decks**: collaborative decks shared with another user, with a request/invite flow and mail notifications
 
 ### Themes
